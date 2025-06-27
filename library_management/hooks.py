@@ -7,6 +7,18 @@ app_license = "mit"
 
 # Apps
 # ------------------
+doc_events = {
+    "Book Issue": {
+        "on_submit": "library_management.library_management.doctype.book_issue.book_issue.on_submit",
+        "on_cancel": "library_management.library_management.doctype.book_issue.book_issue.on_cancel"
+    },
+    
+    "Book Return": {
+    "on_submit": "library_management.library_management.doctype.book_return.book_return.on_submit"
+}
+
+}
+
 
 # required_apps = []
 
